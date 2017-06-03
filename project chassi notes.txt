@@ -1,0 +1,48 @@
+[PROJECT CHASSI]
+
+mobile app chat bot na connected sa FB with OTP (one time passord)
+role= quick design even if html(ser ken na bahala sa pag lalaay sa agula)
+yung pang chat natin d dependent sa library...
+theme is red china bank "MUST ACCOMIDATE THE THEME OF CHINABANK"
+
+•Log in screen
+•chat UI
+•Tranfers
+•balance ckecking
+•Bills payment
+•transaction history
+
+
+KEN AND TOR WILL WORK ON THE BACK EnD.
+fix the table of database
+must finish all the back end req tom atleast merong OTP,SMS,...
+
+on monday gagawin ni ser ken is matapos yung convo, and mag kaka roon ng integration dev, para ma connect yung back end servoce at yung convo
+
+on tuesday mag tetesting testing...
+
+available for OT
+must make some presentation ASAP BASED ON THIS THEME VVVVVVV
+"HOW BANKS USE CHAT BOT TO BOOST THEIR BUSINESS"
+
+
+
+
+
+casa = current account savings account
+	current account = cheke
+	Savings account = ATM /payroll
+
+
+
+
+
+side notes: delay is not resonable cuz this is req by the client
+must finish on wed better if before wed
+
+
+
+
+
+
+====================================================================
