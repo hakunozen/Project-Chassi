@@ -1,5 +1,60 @@
 @charset "utf-8";
 /* CSS Document */
+/**Chassi Login**/
+.logo{
+    width: 25%;
+    height: 25%px;
+	margin:auto;
+	display:block;
+	padding-top:10%;
+}
+.chassi-icon{
+    width: 40%;
+    height: 40%px;
+	margin:auto;
+	display:block;
+	padding-top:5%;
+}
+.user{
+	display:block;
+	margin:auto;
+	padding:15px;
+	padding-top:35%;
+	width:60%;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:1px solid #b2b2b2;
+	outline:none;
+}
+.password{
+	display:block;
+	margin:auto;
+	padding:15px;
+	padding-top:10%;
+	width:60%;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-bottom:1px solid #b2b2b2;
+	outline:none;
+}
+.login-button{
+	display:block;
+	margin:auto;
+	padding:25px;
+	margin-top:8%;
+	width:63%;
+	outline:none;
+	background-color:#ee1c25;
+	border:none;
+	color:#fdfffc;
+	font-size:20px;
+}
+bot-text{
+	text-align:center;
+}
+/**END**/
 /**Scoll and stuff**/
 #custom-scroll::-webkit-scrollbar-track
 {
