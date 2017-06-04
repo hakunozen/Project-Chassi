@@ -6,7 +6,7 @@
     height: 25%px;
 	margin:auto;
 	display:block;
-	padding-top:10%;
+	padding-top:20%;
 }
 .chassi-icon{
     width: 40%;
@@ -50,6 +50,13 @@
 	border:none;
 	color:#fdfffc;
 	font-size:20px;
+}
+.forgot-password{
+	display:block;
+	color:#2b2b2b;
+	text-align:center;
+	font-weight: 400;
+	margin-top:5%;
 }
 bot-text{
 	text-align:center;
