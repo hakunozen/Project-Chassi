@@ -1,5 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
+/**Select**/
+.styled-select select {
+   background:#fdfffc;
+   color:#b2b2b2;
+   border: solid 1px ;
+   font-size:26px;
+   height: auto;
+   padding: 25px; /* If you add too much padding here, the options won't show in IE */
+   width: auto;
+}
+
+.styled-select.slate {
+   background:url(../img/ic_keyboard_arrow_down_black_24px.svg) no-repeat right center;
+   height: 34px;
+   width: 268px;
+}
+
+.styled-select.slate select {
+   border: 1px solid #ccc;
+   font-size: 26px;
+   height: 34px;
+   width: 268px;
+
+}
+.hidden{
+	display:none !important;
+}
+/**End**/
 /**Chassi Fund Transfer**/
 body {margin:0;}
 
@@ -90,13 +118,19 @@ ul,li{
 	outline:none;
 	font-size:26px;
 }
-.header-pic {
+.fund-transfer-header {
 	width:100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size:contain;
 	background-image:url(../img/fund-transfer.png);
-
+}
+.bills-payment-header {
+	width:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+	background-image:url(../img/bills-payment.png);
 }
 .header-text{
 	color:#fdfffc;

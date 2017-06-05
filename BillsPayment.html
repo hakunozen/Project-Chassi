@@ -2,25 +2,38 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Transfer Funds</title>
+<title>Bills Payment</title>
+</head>
+<link rel="stylesheet" href="css/style.css"/>
+<body>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bills Payment</title>
 </head>
 <link rel="stylesheet" href="css/style.css"/>
 <body style="overflow-x:hidden;">
 <div class="topnav" id="myTopnav">
 	<img class="drawer" style="margin-right:-40px;" src="img/ic_menu_black_24px.svg"/>
-	<h5 class="navbar-text">Fund Transfer</h5>
+	<h5 class="navbar-text">Bills Payment</h5>
 </div>
-<div class="fund-transfer-header">
-	<p class="header-text">Share your money to other accounts</p>
+<div class="bills-payment-header">
+	<p class="header-text">Easily pay your bills <br> on the fly!</p>
 </div>
 <div>
     <form>
         <ul style="margin-top:25%">
             <li>
             	<div class="inputfields col-md-12">
-                 <p class="title col-xs-3 col-sm-3 col-md-3"> Account Number: </p>
-                 <input class="input-box col-xs-7 col-sm-7 col-md-7" type="text" placeholder="Account Number" tabindex="-1" 
-                 onkeypress='return event.charCode >= 48 && event.charCode <= 57' /> 
+                 <p class="title col-xs-3 col-sm-3 col-md-3"> Select where to pay </p>
+                 <div class="styled-select col-xs-7 col-sm-7 col-md-7">
+                  <select>
+                    <option class="hidden">Where do you want to pay?</option>
+                    <option>Meralco</option>
+                    <option>PLDT</option>
+                  </select>
+                </div>
                 </div>
             </li>
             <li>
@@ -31,10 +44,13 @@
                 </div>
             </li>
             <li>
-            	<button class="login-button" style="margin-top:15%">Login</button>
+            	<button class="login-button" style="margin-top:15%">Pay</button>
             </li>
         </ul>
     </form>
 </div>
+</body>
+</html>
+
 </body>
 </html>
