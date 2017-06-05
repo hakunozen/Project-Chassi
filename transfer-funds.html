@@ -5,10 +5,36 @@
 <title>Transfer Funds</title>
 </head>
 <link rel="stylesheet" href="css/style.css"/>
-<body class="parallax" style="background-image:url(img/chinabank-bg.png)">
+<body style="overflow-x:hidden;">
 <div class="topnav" id="myTopnav">
 	<img class="drawer" style="margin-right:-40px;" src="img/ic_menu_black_24px.svg"/>
-	<h5 class="navbar-text">Money Transfer</h5>
+	<h5 class="navbar-text">Fund Transfer</h5>
+</div>
+<div class="header-pic">
+	<p class="header-text">Share your money to other accounts</p>
+</div>
+<div>
+    <form>
+        <ul style="margin-top:25%">
+            <li>
+            	<div class="inputfields col-md-12">
+                 <p class="title col-xs-3 col-sm-3 col-md-3"> Account Number: </p>
+                 <input class="input-box col-xs-7 col-sm-7 col-md-7" type="text" placeholder="Account Number" tabindex="-1" 
+                 onkeypress='return event.charCode >= 48 && event.charCode <= 57' /> 
+                </div>
+            </li>
+            <li>
+            	<div class="inputfields col-md-12">
+                 <p class="title col-xs-3 col-sm-3 col-md-3"> Ammount: </p>
+                 <input class="input-box col-xs-7 col-sm-7 col-md-7" type="text" placeholder="Ammount" tabindex="-1" 
+                 onkeypress='return event.charCode >= 48 && event.charCode <= 57' /> 
+                </div>
+            </li>
+            <li>
+            	<button class="login-button" style="margin-top:15%">Login</button>
+            </li>
+        </ul>
+    </form>
 </div>
 </body>
 </html>
