@@ -107,6 +107,14 @@ ul,li{
 	padding:9.5%;
 	font-family:sans-serif;
 }
+th, td{
+	padding:5%;
+	font-size: 3.5vw;
+	font-family:sans-serif;
+}
+th{
+	text-align:left;
+}
 /**END**/
 
 /**Chassi Login**/
@@ -291,6 +299,7 @@ input.textarea {
   position:fixed;
   bottom:0;
   margin-bottom:40px;
+  width:100%;
 }
 input.chat{
 	height:25px;
