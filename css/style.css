@@ -165,11 +165,11 @@ td{
 
 /**Chassi Login**/
 .logo{
-    width: 25%;
-    height: 25%px;
+    width: 45%;
+    height: 45%;
 	margin:auto;
 	display:block;
-	padding-top:20%;
+	padding-top:25%;
 }
 .chassi-icon{
     width: 40%;
@@ -409,7 +409,7 @@ p.max-width{
   position: relative;
   padding: 5px 10px;
   border: 1px solid #F1EAE7;
-  margin: 5px 0 0 50px;
+  margin: 5px 0 0 10px;
   color: #444;
   background-color:#F1EAE7;
   min-width: 50px;
